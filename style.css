@@ -1,0 +1,119 @@
+
+/* Configuración general */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #99ff00
+;
+    color: #222;
+}
+
+/* Barra de navegación */
+.animales-nav {
+    background-color: black;
+    padding: 15px;
+}
+
+.animales-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.animales-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.animales-nav a:hover {
+    color: #ffcc00;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    margin: 35px 0;
+    color: black;
+    border-bottom: 4px solid #ffcc00;
+    padding-bottom: 15px;
+}
+
+/* Menu donde se guarda las fotos de los anialess */
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+}
+
+/* Tcajas parecidas a tarjetas de animales */
+.imagen {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Imágenes */
+.imagen img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;  
+}
+
+/* Títulos de animales */
+.imagen h2 {
+    color: black;
+    border-bottom: 3px solid #eeff00;
+    padding-bottom: 10px;
+    margin: 15px;
+}
+
+/* Descripciones */
+.imagen p {
+    padding: 0 15px 15px;
+    line-height: 1.5;
+}
+
+/* Sección de donaciones */
+.donation-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    margin-top: 40px;
+}
+
+.donation-section h2 {
+    color: #ffcc00;
+}
+
+.donation-section p {
+    max-width: 600px;
+    margin: 15px auto;
+    line-height: 1.5;
+}
+
+/* Botón de donación */
+.donation-section button {
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.donation-section button:hover {
+    background-color: white;
+}
+
